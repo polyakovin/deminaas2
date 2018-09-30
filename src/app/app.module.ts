@@ -11,13 +11,25 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 import { MainComponent } from './main/main.component';
 import { AppComponent } from './app.component';
 import { HttpService } from './http.service';
+import { PortfolioComponent } from './main/portfolio/portfolio.component';
+import { MeComponent } from './main/me/me.component';
+import { PricesComponent } from './main/prices/prices.component';
+import { ContactsComponent } from './main/contacts/contacts.component';
+import { BlogComponent } from './main/blog/blog.component';
+import { FeedbackComponent } from './main/feedback/feedback.component';
 
 mergeAllIconsToOneObject();
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent
+    MainComponent,
+    PortfolioComponent,
+    MeComponent,
+    PricesComponent,
+    ContactsComponent,
+    BlogComponent,
+    FeedbackComponent
   ],
   imports: [
     BrowserModule,

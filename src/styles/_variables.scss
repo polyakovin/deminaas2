@@ -9,13 +9,16 @@ $palette4: #534744;
 $black:    #000;
 $white:    #fff;
 
+$dark: #7F6057;
+$pinkBG: #FFEDE8;
+
 // Basic variables
 $font-primary:   'Noto Sans', sans-serif;
 $font-secondary: 'Noto Serif', serif;
-$color-primary:   $black; // Основной текст
-$color-secondary: $black; // Вспомогательный текст (например, заголовки)
+$color-primary:   $dark; // Основной текст
+$color-secondary: $dark; // Вспомогательный текст (например, заголовки)
 $color-bg:        $white; // Цвет фона
-$color-link:      $palette2;			// Цвет ссылок
+$color-link:      $dark;			// Цвет ссылок
 
 
 // Bootstrap variables
@@ -36,6 +39,11 @@ $gray-light:    #636c72;
 $gray-lighter:  #eceeef;
 $gray-lightest: #f7f7f9;
 $white:         #fff;
+
+$theme-colors: (
+  "primary": #7F6057,
+  "secondary": #FFEDE8
+);
 
 // Options
 $enable-rounded:           true;
